@@ -45,13 +45,13 @@ public class PessoaMain {
 
         System.out.println("\n\n");
 
-//        Pessoa pessoa3 = new Pessoa("Asaphe", new Date(), 1.73d, "Masculino", "Branco", 70d);
-//
-//        System.out.println("Pessoa criada: " + pessoa3.getNome());
-//        pessoa3.comer();
-//        pessoa3.caminhar();
-//        pessoa3.descansar();
-//        pessoa3.dormir();
+        Pessoa pessoa3 = new Pessoa("Asaphe", new Date(), 1.73d, "Masculino", "Branco", 70d);
+
+        System.out.println("Pessoa criada: " + pessoa3.getNome());
+        pessoa3.comer();
+        pessoa3.caminhar();
+        pessoa3.descansar();
+        pessoa3.dormir();
 
         Pessoa pessoa4 = new Pessoa("Vini", new Date(), 1.7d, "Masculino", "Branco", 69d);
         pessoa4.comer();
@@ -59,6 +59,15 @@ public class PessoaMain {
         pessoa4.descansar();
         pessoa4.dormir();
 
+        Pessoa pessoa5 = new Pessoa("Daniel", new Date());
+        pessoa5.setAltura(1.7d)
+               .setGenero("Masculino")
+               .setRaca("Pessoa")
+               .setPeso(100d);
+        pessoa5.comer();
+        pessoa5.caminhar();
+        pessoa5.descansar();
+        pessoa5.dormir();
 
     }
 

@@ -63,31 +63,35 @@ public class Pessoa {
         return altura;
     }
 
-    public void setAltura(Double altura) {
+    public Pessoa setAltura(Double altura) {
         this.altura = altura;
+        return this;
     }
 
     public String getGenero() {
         return genero;
     }
 
-    public void setGenero(String genero) {
+    public Pessoa setGenero(String genero) {
         this.genero = genero;
+        return this;
     }
 
     public String getRaca() {
         return raca;
     }
 
-    public void setRaca(String raca) {
+    public Pessoa setRaca(String raca) {
         this.raca = raca;
+        return this;
     }
 
     public Double getPeso() {
         return peso;
     }
 
-    public void setPeso(Double peso) {
+    public Pessoa setPeso(Double peso) {
         this.peso = peso;
+        return this;
     }
 }
