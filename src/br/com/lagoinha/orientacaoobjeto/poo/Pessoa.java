@@ -44,10 +44,19 @@ public class Pessoa {
         System.out.println(nome + " está conversando com " + pessoa.nome);
     }
 
+    public void correr() {
+        System.out.println(nome + " está correndo...");
+        perderPeso();
+    }
+
     public void correr(Pessoa pessoa) {
         System.out.println(nome + " está correndo com " + pessoa.nome);
-        peso = peso - 0.05d;
-        pessoa.peso = pessoa.peso - 0.05d;
+        perderPeso();
+        pessoa.perderPeso();
+    }
+
+    private void perderPeso() {
+        peso = peso - 0.1d;
     }
 
 // Getters e Setters

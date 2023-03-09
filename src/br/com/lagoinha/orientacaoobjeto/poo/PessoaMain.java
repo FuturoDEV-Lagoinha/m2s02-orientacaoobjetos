@@ -69,6 +69,16 @@ public class PessoaMain {
         pessoa5.descansar();
         pessoa5.dormir();
 
+
+        System.out.println("Peso da " + pessoa3.getNome() + ": " + pessoa3.getPeso());
+        System.out.println("Peso da " + pessoa1.getNome() + ": " + pessoa1.getPeso());
+
+        pessoa3.correr();
+        pessoa3.correr(pessoa1);
+
+        System.out.println("Peso depois de correr: " + pessoa3.getNome() + " - " + pessoa3.getPeso());
+        System.out.println("Peso depois de correr: " + pessoa1.getNome() + " - " + pessoa1.getPeso());
+
     }
 
 }
